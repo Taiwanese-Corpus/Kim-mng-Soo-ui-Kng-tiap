@@ -10,4 +10,6 @@ curl "http://www.221.km.edu.tw/{100,101,102}/l{1,2}{u,d}[1-6].swf" -o './swf/#1_
 # Gí-sû
 curl "http://www.221.km.edu.tw/{100,101,102}/w{1,2}{u,d}[1-6].swf" -o './swf/#1_#2#3/su_#4.swf' --create-dirs -fL0
 # Ua̍h-tōng
-curl "http://www.221.km.edu.tw/{100,101,102}/r{1,2}{u,d}a[1-3].swf" -o './swf/#1_#2#3/kua_#4.swf' --create-dirs -fL0
+curl "http://www.221.km.edu.tw/{100,102}/r{1,2}{u,d}a[1-3].swf" -o './swf/#1_#2#3/kua_#4.swf' --create-dirs -fL0
+# Ua̍h-tōng(.flv)
+curl "http://www.221.km.edu.tw/{101}/flv/r{1,2}{u,d}a[1-3].flv" -o './flv/#1_#2#3/kua_#4.flv' --create-dirs -fL0
